@@ -2,9 +2,9 @@
 cask "irori" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.4.0"
-  sha256 arm:   "df7c75157a59376a9be6dc7768a54eb9cc73d1c0cd604639aefc8335281f221e",
-         intel: "34127ab3e38047844d6980e2152501b9dee16854f66234c2de8689f813ed07f7"
+  version "1.0.0"
+  sha256 arm:   "c22e009f61d71aacca73e94a8133317dc4f79bdda3b70927513da09554d1b5d2",
+         intel: "7deb493dcd4dd9d7d13de549cddfbfb97bc6d24bf1f909445d453c4db28d4bc9"
 
   url "https://github.com/irori-app/irori/releases/download/v#{version}/Irori-#{version}-macos-#{arch}.dmg"
   name "Irori"
